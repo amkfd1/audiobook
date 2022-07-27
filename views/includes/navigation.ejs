@@ -1,0 +1,50 @@
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-cente">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+    <!-- <a href="/"><img src="/img/logo.png" style="height: 60px; width: 60px;" alt=""></a> -->
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <nav id="navbar" class="navbar order-last order-lg-0" style="text-align: center;">
+      <ul style="text-align: center;" >
+        <li><a class="nav-link scrollto" href="/"><img src="/img/logo14.png" style="height: 30px; width: 100;" alt=""></a></li>
+
+        <li><a class="nav-link scrollto filter-active" href="/">Home</a></li>
+        <li><a class="nav-link scrollto" href="/about">About</a></li>
+        <li><a class="nav-link scrollto" href="/blogs">Blogs</a></li>
+        <li><a class="nav-link scrollto" href="/book">Book</a></li>
+        <li><a class="nav-link scrollto" href="/classes">Classes</a></li>
+        <li><a class="nav-link scrollto" href="/contact">Contact Us</a></li>
+        
+          <li><a class="nav-link scrollto" href="/admin/add-blog">Add Blog</a></li>
+          <li><a class="nav-link scrollto" href="/admin/blogs">Admin Blogs</a></li>
+          <li class="main-header__item">
+            <a class="<%= path === '/signup' ? 'active' : '' %>" href="/signup">Signup</a>
+        </li>
+         
+      </ul>
+      
+      <ul class="main-header__item-list">
+       
+            <li class="main-header__item">
+                <a class="<%= path === '/login' ? 'active' : '' %>" href="/login">Login</a>
+            </li>
+            
+      
+            <li class="main-header__item">
+                <form action="/logout" method="post">
+                    <div stye="padding-left: 20px">
+                      <button  class="btn btn-danger" type="submit">Logout</button>
+
+                    </div>
+                </form>
+            </li>
+      
+    </ul>
+    <!-- <i class="bi bi-list mobile-nav-toggle "></i> -->
+    </nav><!-- .navbar -->
+    
+  </div>
+</header><!-- End Header -->

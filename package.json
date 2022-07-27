@@ -1,0 +1,25 @@
+{
+  "name": "audiobook",
+  "version": "1.0.0",
+  "description": "Audio Contents",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Adamu Ahmad",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "contentful": "^9.1.29",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "flash": "^1.1.0",
+    "mongoose": "^6.4.0",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.16"
+  }
+}

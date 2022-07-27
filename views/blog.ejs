@@ -1,0 +1,16 @@
+<%- include('../includes/head.ejs') %>
+    </head>
+
+    <body>
+        <%- include('../includes/navigation.ejs') %>
+        <main class="centered">
+            <h1><%= blog.title %></h1>
+            <hr>
+            <div class="image">
+                <img src="/<%= blog.imageUrl %>" alt="<%= blog.title %>">
+            </div>
+            <h2>By: Saafrah</h2>
+            <p><%= blog.post %></p>
+            
+        </main>
+        <%- include('../includes/end.ejs') %>
